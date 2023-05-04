@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_news">
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.f1api.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_drivers"
+        android:name="com.example.f1api.ui.drivers.DriversFragment"
+        android:label="@string/title_drivers"
+        tools:layout="@layout/fragment_drivers" />
+
+    <fragment
+        android:id="@+id/navigation_teams"
+        android:name="com.example.f1api.ui.teams.TeamsFragment"
+        android:label="@string/title_teams"
+        tools:layout="@layout/fragment_teams" />
+    <fragment
+        android:id="@+id/navigation_circuits"
+        android:name="com.example.f1api.ui.circuits.CircuitsFragment"
+        android:label="@string/title_circuits"
+        tools:layout="@layout/fragment_circuits" />
+    <fragment
+        android:id="@+id/navigation_classification"
+        android:name="com.example.f1api.ui.classification.ClassificationFragment"
+        android:label="@string/title_classification"
+        tools:layout="@layout/fragment_classification" />
+</navigation>
