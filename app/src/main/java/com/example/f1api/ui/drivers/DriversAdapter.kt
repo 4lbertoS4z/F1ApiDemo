@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.f1api.R
 import com.example.f1api.databinding.DriverListBinding
+import com.example.f1api.model.Driver
 
 
 class DriversAdapter (var drivers: List<Driver>) :

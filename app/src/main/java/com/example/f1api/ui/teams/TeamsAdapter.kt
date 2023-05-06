@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.f1api.R
 import com.example.f1api.databinding.TeamListBinding
+import com.example.f1api.model.Team
 
 class TeamsAdapter (var teams: List<Team>) :
     RecyclerView.Adapter<TeamsAdapter.TeamViewHolder>() {

@@ -1,4 +1,4 @@
-package com.example.f1api.ui.circuits
+package com.example.f1api.model
 
 class Circuit(
 

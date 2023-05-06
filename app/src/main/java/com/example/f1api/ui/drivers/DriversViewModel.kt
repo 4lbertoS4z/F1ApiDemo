@@ -5,8 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.f1api.api.ApiService
+import com.example.f1api.model.Driver
 import com.example.f1api.settings.BASE_URL
-import com.example.f1api.ui.teams.Team
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

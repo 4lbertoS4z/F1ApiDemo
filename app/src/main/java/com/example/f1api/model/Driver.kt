@@ -1,4 +1,4 @@
-package com.example.f1api.ui.drivers
+package com.example.f1api.model
 
 class Driver(
 

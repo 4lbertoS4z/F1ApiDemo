@@ -29,7 +29,7 @@
         tools:layout="@layout/fragment_circuits" />
     <fragment
         android:id="@+id/navigation_classification"
-        android:name="com.example.f1api.ui.classification.ClassificationFragment"
+        android:name="com.example.f1api.ui.classification.ClassificationDriverFragment"
         android:label="@string/title_classification"
-        tools:layout="@layout/fragment_classification" />
+        tools:layout="@layout/fragment_classification_driver" />
 </navigation>

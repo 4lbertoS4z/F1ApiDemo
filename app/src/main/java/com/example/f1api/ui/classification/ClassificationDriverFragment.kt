@@ -5,15 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import androidx.lifecycle.ViewModelProvider
 
-import com.example.f1api.databinding.FragmentClassificationBinding
+import com.example.f1api.databinding.FragmentClassificationDriverBinding
 
 
-
-class ClassificationFragment : Fragment() {
-    private var _binding: FragmentClassificationBinding? = null
+class ClassificationDriverFragment : Fragment() {
+    private var _binding: FragmentClassificationDriverBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,16 +21,10 @@ class ClassificationFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(ClassificationViewModel::class.java)
-
-        _binding = FragmentClassificationBinding.inflate(inflater, container, false)
+        _binding = FragmentClassificationDriverBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textClassification
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
         return root
     }
 

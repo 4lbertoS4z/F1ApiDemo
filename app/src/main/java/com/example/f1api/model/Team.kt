@@ -1,4 +1,4 @@
-package com.example.f1api.ui.teams
+package com.example.f1api.model
 
 class Team(
 
