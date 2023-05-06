@@ -20,7 +20,7 @@ class TeamsViewModel : ViewModel() {
         .build()
 
     private val f1Api: ApiService= retrofit.create(ApiService::class.java)
-    // Define la propiedad students
+    // Define la propiedad teams
     private val _teams = MutableLiveData<List<Team>>()
     val teams: LiveData<List<Team>> = _teams
 

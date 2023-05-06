@@ -26,8 +26,8 @@ class TeamsAdapter (var teams: List<Team>) :
     }
 
     override fun onBindViewHolder(holder: TeamViewHolder, position: Int) {
-        val student = teams[position]
-        holder.bind(student)
+        val teamInfo = teams[position]
+        holder.bind(teamInfo)
 
     }
 
