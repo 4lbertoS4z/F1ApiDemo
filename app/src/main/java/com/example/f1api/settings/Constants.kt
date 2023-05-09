@@ -4,3 +4,4 @@ const val BASE_URL = "https://f1api-44edc-default-rtdb.europe-west1.firebasedata
 const val DRIVER = "drivers.json"
 const val TEAM = "teams.json"
 const val CIRCUIT = "circuits.json"
+const val WEB_NEWS = "https://graceful-bublanina-fa0993.netlify.app/index.html"
