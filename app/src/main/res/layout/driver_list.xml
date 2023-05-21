@@ -5,6 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:cardBackgroundColor="#5B59B1A4"
+        android:background="@drawable/cardview_background">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -109,4 +115,5 @@
 
 
     </androidx.cardview.widget.CardView>
+    </FrameLayout>
 </ScrollView>

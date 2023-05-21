@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />  <!-- Color de fondo transparente -->
+    <stroke
+        android:width="2dp"
+    android:color="#FF000000" />  <!-- Color del borde, en este caso, negro -->
+    <corners android:radius="8dp" />  <!-- Radio de las esquinas del borde -->
+</shape>
